@@ -1,2 +1,1 @@
-# webpack-practice
-webpack实践demo
+- [x]   demo1 : 管理资源        `2019.10.22`

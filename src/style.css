@@ -1,12 +1,17 @@
+/*引入字体*/
 @font-face {
-       font-family: 'MyFont';
-       src:  url('./myfont.ttf') format('woff');
-       font-weight: 600;
-       font-style: normal;
-     }
-
-.hello {
-    color: red;
     font-family: 'MyFont';
-    /* background: url('./pic_01.jpeg'); */
-}    
+    src:url("./font/ximanti.ttf") format('truetype');
+    /*字体引入*/
+    /* src:url('../font/字体名称.woff') format('woff'),
+         url('../font/字体名称.ttf') format('truetype'),
+         url('../font/字体名称.svg') format('svg'); */
+}
+
+.hello{
+    color:#EC407A;
+    font-family: 'MyFont';
+    font-size: 26px;
+    font-weight:bold;
+    /* background: url('./images/02.jpeg') */
+}

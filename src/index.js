@@ -1,17 +1,24 @@
 import _ from 'lodash';
-import './style.css'
-import imgSrc from './pic_01.jpeg'
+import './style.css';                    //添加css的loader
+import imgSrc from './images/01.jpg';    //添加图片资源
+import Data from './data.xml'            //加载文件资源
+
+
 
 function component() {
     var element = document.createElement('div');
+    //添加文字
+    element.innerHTML = _.join(['Hello', 'VickyRong!!!','汉体书写可爱文字'], ' ');
+    //添加css
+    element.classList.add('hello'); 
+    //添加图片资源
+    var img = new Image();
+    img.src = imgSrc;
+    element.appendChild(img);
+    //加载数据
+    console.log(Data)
   
-    // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
-    element.innerHTML = _.join(['Hello', 'webpack','杨柳依依'], ' ');
-    element.classList.add('hello');
-    var bgImg = new Image();
-    bgImg.src = imgSrc;
-    element.appendChild(bgImg);
     return element;
-  }
+}
   
   document.body.appendChild(component());
