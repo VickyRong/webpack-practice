@@ -2,7 +2,7 @@
 - [x]   demo2 : 管理输出        `2019.10.23`
 - [x]   demo3 : 开发            `2019.10.23`
 - [x]   demo4 : 模块热替换       `2019.10.23`
-- [ ]   demo5 : tree shaking     
+- [x]   demo5 : tree shaking    `2019.10.23`
 - [ ]   demo6 : 生产环境构建     
 - [ ]   demo7 : 代码分离     
 - [ ]   demo8 : 懒加载     
