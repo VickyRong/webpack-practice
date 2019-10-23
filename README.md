@@ -1,2 +1,21 @@
 - [x]   demo1 : 管理资源        `2019.10.22`
-- [ ]   demo2 : 管理输出        
+- [x]   demo2 : 管理输出        `2019.10.23`
+- [ ]   demo3 : 开发     
+- [ ]   demo4 : 模块热替换     
+- [ ]   demo5 : tree shaking     
+- [ ]   demo6 : 生产环境构建     
+- [ ]   demo7 : 代码分离     
+- [ ]   demo8 : 懒加载     
+- [ ]   demo9 : 缓存    
+- [ ]   demo10 : 创建library     
+- [ ]   demo11 : shimming 
+- [ ]   demo12 : 渐进式网络应用程序 
+- [ ]   demo13 : TypeScript 
+- [ ]   demo14 : 迁移到新版本 
+- [ ]   demo15 : 使用环境变量
+- [ ]   demo16 : 构建性能 
+- [ ]   demo17 : 内容安全策略 
+- [ ]   demo18 : 开发-Vagrant 
+- [ ]   demo19 : 管理依赖 
+- [ ]   demo20 : 公共路径 
+- [ ]   demo21 : 集成 
